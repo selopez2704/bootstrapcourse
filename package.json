@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fulqjulio/NodeJS.git"
+    "url": "git+https://github.com/selopez2704/bootstrapcourse"
   },
-  "author": "Julian Carvajal",
+  "author": "Sebastian Lopez Mazo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fulqjulio/NodeJS/issues"
+    "url": "https://github.com/fulqjulio/selopez2704/bootstrapcourse"
   },
-  "homepage": "https://github.com/fulqjulio/NodeJS#readme",
+  "homepage": "https://github.com/selopez2704/bootstrapcourse#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
