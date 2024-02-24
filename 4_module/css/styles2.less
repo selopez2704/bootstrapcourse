@@ -1,0 +1,31 @@
+@myBlue: #30b5c9;
+
+.margenes(@top, @botton){
+    margin-top: @top;
+    margin-bottom: @botton;
+}
+
+.jumbotron {
+    background-color: @myBlue;
+    color: black;
+    .margenes(50px, 0px);
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: @myBlue;
+    .margenes(10px, 0px);
+}
+
+.card-hotel {
+    flex: 1 150px;
+    .margenes(10px, 0px);
+}
+
+.btn-reserva {
+    width: 100%;
+}
+
+.tab-content {
+    padding-top: 10px;
+}

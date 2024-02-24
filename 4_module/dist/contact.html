@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->/
+  <link rel="stylesheet" href="dist/main.css">
+
+  <title>Guía de hoteles</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a href="index.html" class="navbar-brand">Hoteles</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="prices.html">Precios</a></li>
+        <li class="nav-item"><a class="nav-link" href="terms.html">Términos y condiciones</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1>Hoteles</h1>
+  </div>
+  
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item" aria-current="page">Contacto</li>
+      </ol>
+    </nav>
+    
+    <h1>Déjame tu comentario</h1>
+
+    <form action="">
+      <div class="row">
+
+        <div class="form-group col-sm-6">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="apellido">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+        </div>
+        
+      </div>
+      <div class="row">
+
+        <div class="form-group col-sm-9">
+          <label for="domicilio">Domicilio</label>
+          <input type="text" class="form-control" id="domicilio" placeholder="Ingrese su domicilio">
+        </div>
+        <div class="form-group col-sm-3">
+          <label for="ciudad">Ciudad</label>
+          <select id="ciudad" class="form-control">
+            <option value="1" selected>Medellín</option>
+            <option value="2">Bogotá</option>
+            <option value="3">Cali</option>
+            <option value="4">Barranquilla</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario" cols="20" rows="5" class="form-control"></textarea>
+      </div>
+
+      <div class="form-group">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="Gridcheck">
+          <label for="Gridcheck" class="form-check-label">Quiero que me contacten</label>
+
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.twitter.com">Twitter</a>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.google.com">Google+</a>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <h3>Oficina central</h3>
+          <p>Medellín, Antioquia, Colombia</p>
+          <p>+57 314 234 56 67</p>
+          <p>sebastianlmazo@gmail.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="https://www.facebook.com">Nosotros</a>
+        <a href="https://www.twitter.com">Precios</a>
+        <a href="https://www.instagram.com">Términos y condiciones</a>
+        <a href="https://www.google.com">Contacto</a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="dist/main.js"></script>
+
+  <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/popper.js/dist/popper.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+</body>
+
+</html>
